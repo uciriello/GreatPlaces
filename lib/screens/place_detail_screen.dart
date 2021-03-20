@@ -42,6 +42,7 @@ class PlaceDetailScreen extends StatelessWidget {
             child: Text('View on Map'),
             textColor: Theme.of(context).primaryColor,
             onPressed: () {
+              print('selected View on Map');
               Navigator.of(context).push(
                 MaterialPageRoute(
                   fullscreenDialog: true,
